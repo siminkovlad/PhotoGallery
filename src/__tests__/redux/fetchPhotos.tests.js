@@ -3,9 +3,17 @@ import fetchMock from 'fetch-mock';
 
 import reducer, {
     initialState,
-    FETCH, SHOW_LOADER, HIDE_LOADER, REQUEST_PHOTOS,
-    getPhotos, showLoader, hideLoader, requestPhotos,
-    sagaWatcher, sagaWorker, fetchData
+    FETCH,
+    SHOW_LOADER,
+    HIDE_LOADER,
+    REQUEST_PHOTOS,
+    getPhotos,
+    showLoader,
+    hideLoader,
+    requestPhotos,
+    sagaWatcher,
+    sagaWorker,
+    fetchData
 } from '../../redux/fetchPhotos';
 
 const payload = [
