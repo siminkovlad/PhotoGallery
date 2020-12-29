@@ -1,0 +1,58 @@
+{
+    "name": "photo-gallery",
+    "version": "1.0.0",
+    "description": "Test React app",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/siminkovlad/PhotoGallery"
+    },
+    "author": "Siminko Vlad",
+    "license": "ISC",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.2.1",
+        "bootstrap": "^4.4.1",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "jest-enzyme": "^7.1.2",
+        "node-fetch": "^2.6.0",
+        "react": "^16.13.1",
+        "react-bootstrap": "^1.0.1",
+        "react-dom": "^16.13.1",
+        "react-redux": "^7.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "3.4.1",
+        "react-test-renderer": "^16.13.1",
+        "redux": "^4.0.5",
+        "redux-saga": "^1.1.3",
+        "styled-components": "^5.1.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "enzyme-to-json": "^3.4.4",
+        "fetch-mock": "^9.9.0",
+        "redux-mock-store": "^1.5.4"
+    }
+}
