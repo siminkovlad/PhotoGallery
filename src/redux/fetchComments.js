@@ -15,7 +15,7 @@ export const initialState = {
     comments: {}
 };
 
-function commentsReducer(state = initialState, action) {
+const commentsReducer = (state = initialState, action) => {
     switch (action.type) {
         case FETCH_COMMENTS:
             return { ...state, comments: action.payload };
@@ -26,7 +26,7 @@ function commentsReducer(state = initialState, action) {
         default:
             return state;
     }
-}
+};
 
 export function* commentsSagaWatcher() {
     yield takeEvery(REQUEST_COMMENTS, sagaWorker);
@@ -34,6 +34,7 @@ export function* commentsSagaWatcher() {
 
 export function* sagaWorker() {
     const payload = yield call(fetchComments);
+
     yield put(getComments(payload));
 }
 
