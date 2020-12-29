@@ -2,7 +2,12 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Container } from 'react-bootstrap';
 
-import { Header, Main, Footer, Loader } from './index';
+import {
+    Header,
+    Main,
+    Footer,
+    Loader
+} from './index';
 import { GlobalStyle } from '../styles/globalStyles';
 
 import { requestPhotos } from '../redux/fetchPhotos';
