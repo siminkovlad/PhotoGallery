@@ -53,6 +53,7 @@
     "devDependencies": {
         "enzyme-to-json": "^3.4.4",
         "fetch-mock": "^9.9.0",
-        "redux-mock-store": "^1.5.4"
+        "redux-mock-store": "^1.5.4",
+        "redux-devtools-extension": "^2.13.8"
     }
 }
