@@ -5,7 +5,7 @@ import images from '../data/images';
 export const FETCH_PHOTOS = 'fetchPhotos/FETCH_PHOTOS';
 export const REQUEST_PHOTOS = 'fetchPhotos/REQUEST_PHOTOS';
 export const SHOW_LOADER = 'fetchPhotos/SHOW_LOADER';
-export const HIDE_LOADER = 'photo-gallery/src/store/fetchPhotos/HIDE_LOADER';
+export const HIDE_LOADER = 'fetchPhotos/HIDE_LOADER';
 
 export const getPhotos = payload => ({ type: FETCH_PHOTOS, payload });
 export const requestPhotos = () => ({ type: REQUEST_PHOTOS });
