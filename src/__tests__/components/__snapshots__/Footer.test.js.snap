@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer tests Create snapshot 1`] = `
+<Row
+  noGutters={false}
+>
+  <Col>
+    <styled.footer>
+      © 
+      2021
+    </styled.footer>
+  </Col>
+</Row>
+`;
